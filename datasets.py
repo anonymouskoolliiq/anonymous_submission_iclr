@@ -59,7 +59,7 @@ def _load_image(path):
         return img.convert('RGB')
 
 
-class DatasetWrapper(Dataset): # TODO: Naming
+class DatasetWrapper(Dataset):
     # Additinoal attributes
     # - indices
     # - classwise_indices
@@ -101,7 +101,7 @@ class DatasetWrapper(Dataset): # TODO: Naming
     def reset(self):
         self.__init__(self.base_dataset, self.indices)
 
-class DoubleDatasetWrapper(Dataset): # TODO: Naming
+class DoubleDatasetWrapper(Dataset):
     # Additinoal attributes
     # - indices
     # - classwise_indices
