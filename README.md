@@ -1,5 +1,6 @@
  anonymous_submission_iclr2020
 
+Requirements: `torch==1.2.0`, `torchvision==0.4.0`
 
 train cifar100 on resnet with class-wise regularization losses
 
